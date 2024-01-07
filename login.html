@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="loginStyle.css">
+    <title>LOGIN</title>
+</head>
+<body>
+    <div class="ramesh">
+        <div class="reg-form">
+            <h2 class="heading">LOGIN</h2>
+            <div class="Create-account" align="center">
+                <form autocomplete="off" class="formfld">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="USERNAME" class="fld" id="un" required /><br>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="text" placeholder="PASSWORD" class="fld" id="pass" required/>
+                    <input type="button" value="LOGIN" class="btn" onclick="login()" />
+                    <input type="reset" value="CANCEL" class="btn" />
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="loginScript.js"></script>
+</body>
+</html>
